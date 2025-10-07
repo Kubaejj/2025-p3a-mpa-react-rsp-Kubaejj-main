@@ -1,0 +1,10 @@
+.layout {
+    margin: 0;  
+    padding: 1em;
+    min-width: 240px;
+    max-width: 720px;
+    min-height: 120px;
+    border: 1px solid black;
+    border-radius: .5rem;
+    background-color: lightyellow;
+  }

@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Limelight";
+  src: local("Limelight"),
+  url("./assets/fonts/Limelight-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+:root {
+  font-family: "Limelight", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+button {
+  background-color: #000;
+  border: none;
+  color: #FFD700;
+  text-align: center;
+  font-family: 'Limelight', sans-serif;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 2px solid #FFD700;
+  border-radius: .5em;
+}
+
+button:hover {
+  background-color: #FFD700;
+  color: #000;
+}

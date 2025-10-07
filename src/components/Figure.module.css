@@ -1,0 +1,24 @@
+.choice {
+    display: block;
+    text-indent: -9999px;
+    width: 64px;
+    height:64px;
+    border-radius: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.selected {
+    outline: 3px solid gold;
+}
+.clickable {
+    cursor: pointer;
+}
+.Rock {
+    background-image: url('../assets/images/rock.png');    
+}
+.Paper {
+    background-image: url('../assets/images/paper.png');  
+}
+.Scissors {
+    background-image: url('../assets/images/scissors.png'); 
+}
